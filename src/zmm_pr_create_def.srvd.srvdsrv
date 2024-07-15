@@ -1,0 +1,13 @@
+@EndUserText.label: 'Service Definition For PR Create'
+define service ZMM_PR_CREATE_DEF {
+  expose ZMM_PR_TYPE_F4       as PRtypeF4;
+  expose ZMM_PR_ACCT_ASS_F4   as AcctAssF4;
+  expose ZMM_PR_MATERIAL_F4   as MaterailF4;
+  expose ZMM_PR_PLANT_F4      as PlantF4;
+  expose ZMM_PR_PUR_GRP_F4    as PURGRPF4;
+  expose ZMM_PR_WBS_F4        as WBSF4;
+  expose ZMM_PR_COSTCENTER_F4 as CostCenterF4;
+  expose ZMM_PR_GLACCOUNT_F4  as GLACCOUNTF4;
+  expose ZMM_PR_ASSET_F4      as AssetF4;
+  expose ZMM_PR_F4            as PRF4;
+}
